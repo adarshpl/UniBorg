@@ -110,7 +110,7 @@ async def _(event):
                 await silently_send_message(bot_conv, sticker_emoji)
                 await silently_send_message(bot_conv, "/done")
 
-    await event.edit(f"ഇത് ഞാൻ ഇങ്ങു എടുക്കുവാ[here](t.me/addstickers/{packshortname})")
+    await event.edit(f"ഇത് ഞാൻ ഇങ്ങു എടുക്കുവാ [αᴅᴀʀsʜ🕴ρʟ](t.me/addstickers/{packshortname})")
 
 
 @borg.on(admin_cmd("packinfo"))
